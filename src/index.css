@@ -1,10 +1,15 @@
+:root {
+  --text-color: #e6e2e2;
+  --bg-color: #292828;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  width: 100%;
-  min-height: 100vh;
+#root {
+  width: 100vw ;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }

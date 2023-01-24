@@ -1,0 +1,18 @@
+.detail__top {
+  display: flex;
+  height: 20rem;
+  background-color: black;
+  color: var(--text-color);
+  box-shadow: 0 4px 6px 20px rgb(31, 31, 31);
+  margin-bottom: 10px;
+}
+.detail__top > img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.detail__right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

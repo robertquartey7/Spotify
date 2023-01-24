@@ -1,0 +1,30 @@
+.card {
+  width: 15rem;
+  height: fit-content;
+  background-color: var(--bg-color);
+  padding: 1rem;
+  cursor: pointer;
+}
+.img__box {
+  position: relative;
+}
+.img__box > img {
+  border-radius: 50%;
+}
+
+.play {
+  position: absolute;
+  right: 0;
+  bottom: -1.5rem;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.play_hover {
+  position: absolute;
+  right: 0;
+  bottom: 0rem;
+  color: black;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}

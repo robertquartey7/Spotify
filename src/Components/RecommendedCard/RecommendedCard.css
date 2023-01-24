@@ -1,0 +1,21 @@
+.rec__card {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+overflow: hidden;
+  background-color: black;
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.rec__img {
+  height: 100%;
+  width: 100%;
+}
+.rec__title {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}

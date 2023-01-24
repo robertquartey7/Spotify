@@ -1,0 +1,8 @@
+.artist {
+  border: solid 1px pink;
+}
+.topArtist {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

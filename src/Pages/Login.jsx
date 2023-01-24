@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { BsSpotify } from "react-icons/bs";
 
 function Login() {
@@ -8,18 +8,23 @@ function Login() {
     const scope = [
       "user-read-email",
       "user-read-private",
-      // "user-modify-playback-state",
-      // "user-read-playback-state",
-      // "user-read-currently-playing",
-      // "user-read-currently-played",
-      // "user-read-playback-position",
-      // "user-top-read",
+      "user-read-recently-played",
+      "user-read-playback-position",
+      "user-read-currently-playing",
+      "user-modify-playback-state",
+      "user-read-playback-state",
+      'user-top-read',
+      'user-library-read',
+      'app-remote-control',
+      'user-library-modify',
+      'streaming'
+      
     ];
     window.location.href = `${apiUrl}?client_id=${
       import.meta.env.VITE_CLIENT_ID
     }&redirect_uri=${import.meta.env.VITE_REDIRECT_URL}&scope=${scope.join(
       " "
-    )}&response_type=token&show_daialog=true`;
+    )}&response_type=token&show_dialog=true`;
   };
 
   return (

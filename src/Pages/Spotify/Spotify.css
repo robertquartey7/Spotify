@@ -1,0 +1,13 @@
+.spotify {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+}
+.spotify__left {
+  width: 100%;
+}
+
+.spotify__right {
+  width: 100%;
+  overflow-y: scroll;
+}
