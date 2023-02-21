@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Spinner } from "loading-animations-react";
+
 import { useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
 
@@ -23,12 +23,7 @@ function Callback() {
         backgroundColor: "black",
       }}
     >
-      <Spinner
-        color1="green"
-        color2="#fff"
-        textColor="white"
-        text="Connecting to the App.."
-      />
+ 
     </div>
   );
 }
